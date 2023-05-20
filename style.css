@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    background-position: 0 6%;
+    height: 100vh;
+    background-size: 100%;
+    background-image: url(./img/i.webp);
+    background-repeat: no-repeat;
+}
+body img {
+    
+   
+    animation-name: BoxAnimation;
+    margin-top: 1500px;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes  BoxAnimation{
+    0%{
+        transform: translate(0px) rotate(0deg) ; 
+    }
+    5%{
+        transform: translateX(4500px);
+    }
+    10%{
+       
+    }  
+    20%{
+       transform: translateX(200px) rotate(10deg) translateY( -700px);
+        
+    }   
+    30%{
+       transform: rotate(0deg) translateY(-700px) translateX(-1000px);
+        
+    }  
+    40%{
+        
+        
+    }  
+    50%{
+        
+    }  
+    60%{
+       
+        
+    }  
+    70%{
+        transform: translate(5000px) translateY( -700px) ;
+       
+        
+    }  
+    80%{
+        transform: translatey(50px) rotate(-30deg)
+    }  
+    90%{
+       transform:  rotate(0deg)  translatey(10px) translateX(200px);
+        
+    }  
+    100%{
+        
+
+    } 
+}
